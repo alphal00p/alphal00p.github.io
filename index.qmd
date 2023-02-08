@@ -14,8 +14,8 @@ For this reason, our collaboration is dedicated to theoretical and algorithmic r
 
 $$
 \frac{d\sigma}{d\mathcal{O}} \;=\; \sum_{\Gamma\;\in\;\text{graphs}}\;\;
-\prod_{i=1}^{n_\text{loop}}\; d^{3}\mathbf{k}_i\;\;
-\sum_{c\;\in\;{\text{cuts}}} I^{(\text{LU})}_{\Gamma,c}\;
+\int\; \prod_{i=1}^{n_\text{loop}}\; d^{3}\mathbf{k}_i\;
+\sum_{c\;\in\;{\text{cuts}}} I^{\text{LU}}_{\Gamma,c}\;
 \delta( \mathcal{O}( c, \mathbf{k}_i ) )
 $$
 

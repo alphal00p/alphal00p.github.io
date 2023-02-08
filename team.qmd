@@ -2,7 +2,7 @@
 title: "Meet the team"
 ---
 
-### Active collaborators {style="text-align: center;"}
+### Active members {style="text-align: center;"}
 \
 
 ::: {.grid}
@@ -45,28 +45,25 @@ title: "Meet the team"
 
 :::
 
-### Former collaborators {style="text-align: center;"}
+### Contributors {style="text-align: center;"}
 \
 
 ::: {.grid}
 
 ::: {.g-col-5}
-![Dr. Dario Kermanschah](./resources/mugshots/DarioKermanschah.jpg)
-
+Dr. Dario Kermanschah\
 [kermanschah@phys.ethz.ch](kermanschah@phys.ethz.ch)\
 [ITP @ ETH Zurich](https://itp.phys.ethz.ch/people/person-detail.MTk5NTQy.TGlzdC84NDYsLTE5MDQ4MDM5ODI=.html)
 :::
 
 ::: {.g-col-5}
-![Dr. Andrea Pelloni](./resources/mugshots/AndreaPelloni.jpg)
-
+Dr. Andrea Pelloni\
 [apelloni90@gmail.com](apelloni90@gmail.com)\
 [NIKHEF](https://theory.web.nikhef.nl/people/)
 :::
 
 ::: {.g-col-5}
-![Armin Schweitzer](./resources/mugshots/ArminSchweitzer.jpg)
-
+Armin Schweitzer\
 [armin.schweitzer92@gmx.de](armin.schweitzer92@gmx.de)\
 [linkedin/armin-schweitzer](www.linkedin.com/in/armin-schweitzer)
 :::

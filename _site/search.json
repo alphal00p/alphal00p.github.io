@@ -1,24 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "The αLoop collaboration",
     "section": "",
-    "text": "The lack of obvious sign of new physics phenomenon in collider experiments is an opportunity to take a step back and reflect on the amazing theory we have discovered so far: the Standard Model. In particular, we must now strive to make ever more precise predictions so as to hunt for indirect evidence of new physics in small departure from expectations.\nFor this reason, our collaboration is dedicated to theoretical and algorithmic research for the automated computation of cross-sections in Quantum Field Theories at arbitrary perturbative orders. In particular, we develop a new theoretical framework called Local Unitarity (LU) which approaches this problem from an unorthodox way, particularly suited to numerical computations.\n\n\\[\n\\frac{d\\sigma}{d\\mathcal{O}} \\;=\\; \\sum_{\\Gamma\\;\\in\\;\\text{graphs}}\\;\\;\n\\prod_{i=1}^{n_\\text{loop}}\\; d^{3}\\mathbf{k}_i\\;\\;\n\\sum_{c\\;\\in\\;{\\text{cuts}}} I^{(\\text{LU})}_{\\Gamma,c}\\;\n\\delta( \\mathcal{O}( c, \\mathbf{k}_i ) )\n\\]\nOur research leads to the development of \\(\\alpha\\text{Loop}\\), a tool for the automated computation of fixed-order cross-sections, for which you will find out more details on our wiki and GitHub.\nYou can find an easy-to-read first introduction to Local Unitarity in this proceeding, which can then be complemented with further readings found in our publications."
+    "text": "The lack of obvious sign of new physics phenomenon in collider experiments is an opportunity to take a step back and reflect on the amazing theory we have discovered so far: the Standard Model. In particular, we must now strive to make ever more precise predictions so as to hunt for indirect evidence of new physics in small departure from expectations.\nFor this reason, our collaboration is dedicated to theoretical and algorithmic research for the automated computation of cross-sections in Quantum Field Theories at arbitrary perturbative orders. In particular, we develop a new theoretical framework called Local Unitarity (LU) which approaches this problem from an unorthodox way, particularly suited to numerical computations.\n\n\\[\n\\frac{d\\sigma}{d\\mathcal{O}} \\;=\\; \\sum_{\\Gamma\\;\\in\\;\\text{graphs}}\\;\\;\n\\int\\; \\prod_{i=1}^{n_\\text{loop}}\\; d^{3}\\mathbf{k}_i\\;\n\\sum_{c\\;\\in\\;{\\text{cuts}}} I^{\\text{LU}}_{\\Gamma,c}\\;\n\\delta( \\mathcal{O}( c, \\mathbf{k}_i ) )\n\\]\nOur research leads to the development of \\(\\alpha\\text{Loop}\\), a tool for the automated computation of fixed-order cross-sections, for which you will find out more details on our wiki and GitHub.\nYou can find an easy-to-read first introduction to Local Unitarity in this proceeding, which can then be complemented with further readings found in our publications."
   },
   {
-    "objectID": "the_team.html",
-    "href": "the_team.html",
+    "objectID": "team.html",
+    "href": "team.html",
     "title": "Meet the team",
     "section": "",
-    "text": "Valentin Hirschi\nZeno Capatti\nMathijs Faarje\nBen Ruijl"
+    "text": "Active members\n\n\n\n\n\n\n\nProf. Dr. Valentin Hirschi\n\n\nvalentin.hirschi@gmail.com\nITP @ University of Berne\nlinkedin/valentin-hirschi\n\n\n\n\n\nDr. Ben Ruijl\n\n\nvalentin.hirschi@gmail.com\nSymbolica\n\n\n\n\n\nZeno Capatti\n\n\nzcapatti@phys.ethz.ch\nITP @ ETH Zurich\n\n\n\n\n\nMathijs Faarje\n\n\nmathijsfraaije@gmail.com\nITP @ University of Berne\n\n\n\n\n\nLucien Huber\n\n\nlucihuber@ethz.ch\nITP @ University of Berne\n\n\n\n\nContributors\n\n\n\n\nDr. Dario Kermanschah\nkermanschah@phys.ethz.ch\nITP @ ETH Zurich\n\n\nDr. Andrea Pelloni\napelloni90@gmail.com\nNIKHEF\n\n\nArmin Schweitzer\narmin.schweitzer92@gmx.de\nlinkedin/armin-schweitzer"
   },
   {
     "objectID": "references.html",
@@ -26,13 +19,6 @@
     "title": "References and useful material",
     "section": "",
     "text": "This page collects publications detailing our effort towards the ultimate goal of efficiently computing perturbative cross-sections at arbitrary orders. Needless to say that our work builds upon that of many others whose references can be found in our citations.\n\nLoop-Tree Duality\n\nOur journey started with a first publication summarizes the muli-loop generalisation of Loop-Tree Duality (LTD)\nLoop-Tree Duality for Multiloop Numerical Integration\nIt can be used for the numerical evaluation of finite loop integrals, also for physical kinematics when using a contour deformation discussed in this following publication\nNumerical Loop-Tree Duality: contour deformation and subtraction\nThe original expression of Loop-Tree Duality suffers from spurious singularities that can be algorithmically removed so as to make it manifestly causal (cLTD)\nManifestly Causal Loop-Tree Duality\nAn alternative approach to regularising theshold singularities at one-loop was also worked out by Dario Kermanschah\nNumerical integration of loop integrals through local cancellation of threshold singularities\nFinally, Zeno Capatti discovered an even more elegant cross-Free Family (cFF) formulation of LTD that is more compact and only retains physical thresholds\nExposing the threshold structure of loop integrals\nAll these equivalent formulations LTD, cLTD and cFF can be readily generated from a Mathematica package available at\nMathematica package for generating LTD expressions\n\n\nLocal Unitarity\n\nEquipped with the LTD expressions discussed above, we worked out the original construction of Local Unitarity (LU) is described in detailed at\nLocal Unitarity: a representation of differential cross-sections that is locally free of infrared singularities at any order\nIt is then further refined to detail the handling of self-energy corrections and renormalisation at arbitrary perturbative orders in\nLocal unitarity: cutting raised propagators and localising renormalisation\n\n\nMiscellaneous\n\nA brilliant semester student, Max Hofer, computed the forward-backward asymmetry at NLO for the process \\(e^+ e^- \\rightarrow Q \\overline{Q}\\) using Local Unitarity. His report offers a good first introduction to our framework:\nComputing electroweak quantum corrections using Local Unitarity\nA standalone Mathematica notebook playground allows you to explore an explicit implementation of Local Unitarity for the computation of the inclusive NLO correction to the process \\(e^+ e^- \\rightarrow \\gamma \\rightarrow d\\bar{d}\\) yielding the infamous \\(\\alpha_s / \\pi\\) K-factor\nA Mathematica playground for computing a simple inclusive NLO correction"
-  },
-  {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Meet the team",
-    "section": "",
-    "text": "Active collaborators\n\n\n\n\n\n\n\nProf. Dr. Valentin Hirschi\n\n\nvalentin.hirschi@gmail.com\nITP @ University of Berne\nlinkedin/valentin-hirschi\n\n\n\n\n\nDr. Ben Ruijl\n\n\nvalentin.hirschi@gmail.com\nSymbolica\n\n\n\n\n\nZeno Capatti\n\n\nzcapatti@phys.ethz.ch\nITP @ ETH Zurich\n\n\n\n\n\nMathijs Faarje\n\n\nmathijsfraaije@gmail.com\nITP @ University of Berne\n\n\n\n\n\nLucien Huber\n\n\nlucihuber@ethz.ch\nITP @ University of Berne\n\n\n\n\nFormer collaborators\n\n\n\n\n\n\n\nDr. Dario Kermanschah\n\n\nkermanschah@phys.ethz.ch\nITP @ ETH Zurich\n\n\n\n\n\nDr. Andrea Pelloni\n\n\napelloni90@gmail.com\nNIKHEF\n\n\n\n\n\nArmin Schweitzer\n\n\narmin.schweitzer92@gmx.de\nlinkedin/armin-schweitzer"
   },
   {
     "objectID": "talks.html",
