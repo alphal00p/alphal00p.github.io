@@ -1,0 +1,52 @@
+---
+title: "References and useful material"
+---
+\
+This page collects publications detailing our effort towards the ultimate goal of efficiently computing perturbative cross-sections at arbitrary orders. Needless to say that our work builds upon that of many others whose references can be found in our citations.  
+
+### Loop-Tree Duality
+\
+Our journey started with a first publication summarizes the muli-loop generalisation of Loop-Tree Duality (LTD)
+
+[Loop-Tree Duality for Multiloop Numerical Integration](https://arxiv.org/pdf/1906.06138.pdf)
+
+It can be used for the numerical evaluation of finite loop integrals, also for physical kinematics when using a contour deformation discussed in this following publication
+
+[Numerical Loop-Tree Duality: contour deformation and subtraction](https://arxiv.org/pdf/1912.09291.pdf)
+
+The original expression of Loop-Tree Duality suffers from spurious singularities that can be algorithmically removed so as to make it *manifestly causal* (cLTD)
+
+[Manifestly Causal Loop-Tree Duality](https://arxiv.org/pdf/2009.05509.pdf)
+
+An alternative approach to regularising theshold singularities at one-loop was also worked out by Dario Kermanschah 
+
+[Numerical integration of loop integrals through local cancellation of threshold singularities](https://arxiv.org/pdf/2110.06869.pdf)
+
+Finally, Zeno Capatti discovered an even more elegant cross-Free Family (cFF) formulation of LTD that is more compact and only retains physical thresholds
+
+[Exposing the threshold structure of loop integrals](https://arxiv.org/pdf/2211.09653.pdf)
+
+All these equivalent formulations LTD, cLTD and cFF can be readily generated from a Mathematica package available at
+
+[Mathematica package for generating LTD expressions](https://github.com/apelloni/cLTD)
+
+### Local Unitarity
+\
+Equipped with the LTD expressions discussed above, we worked out the original construction of Local Unitarity (LU) is described in detailed at
+
+[Local Unitarity: a representation of differential cross-sections that is locally free of infrared singularities at any order](https://arxiv.org/pdf/2010.01068.pdf)
+
+It is then further refined to detail the handling of self-energy corrections and renormalisation at arbitrary perturbative orders in
+
+[Local unitarity: cutting raised propagators and localising renormalisation](https://arxiv.org/pdf/2203.11038.pdf)
+
+### Miscellaneous
+\
+A brilliant semester student, Max Hofer, computed the forward-backward asymmetry at NLO for the process $e^+ e^- \rightarrow Q \overline{Q}$ using Local Unitarity.
+His report offers a good first introduction to our framework:
+
+[Computing electroweak quantum corrections using Local Unitarity](./resources/MaxHofer_AFB.pdf)
+
+A standalone Mathematica notebook playground allows you to explore an explicit implementation of Local Unitarity for the computation of the inclusive NLO correction to the process $e^+ e^- \rightarrow \gamma \rightarrow d\bar{d}$ yielding the infamous $\alpha_s / \pi$ K-factor
+
+[A Mathematica playground for computing a simple inclusive NLO correction](./resources/LU_epem_a_ddx_inclusive.nb)

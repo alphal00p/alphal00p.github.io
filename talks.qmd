@@ -1,0 +1,21 @@
+---
+title: "Talks"
+---
+
+You will find here slides and recordings of some of the talks we have given on the topic of Local Unitarity
+
+### Valentin Hirschi
+
+[10.2020 @ CERN](https://drive.google.com/file/d/1X5VilLYYpQKhFl55UT6CKI2GMlSVjnl2/view?usp=sharing) and [recording](https://drive.google.com/file/d/1FjCZpTZvvryUQ2tN1SYiLO6SUQzQGlVs/view?usp=sharing)
+
+[05.2022 @ LoopFest XX](https://drive.google.com/file/d/1LyuPSoq6dYKYIFkZjGPX58NCcJ4AA1zN/view?usp=sharing)
+
+### Zeno Capatti
+
+[11.2020 @ CERN](https://drive.google.com/file/d/14udVlpP-ZE46LyYMHDfnhYDr0y2Nu2yG/view) and [recording](https://indico.lucas.lu.se/event/1770/material/0/)
+
+[10.2021 @ CERN](https://indico.cern.ch/event/1081056/)
+
+### Ben Ruijl
+
+[11.2020 @ NIKHEF](https://indico.cern.ch/event/978127/contributions/4119963/attachments/2151372/3627384/ltd.pdf) and [recording](https://nikhef.zoom.us/rec/share/ywTkExOAHM2C2AwGgjpHWAHGWTHUmnI5up74uXpy9nD2PMcMa6Ehvf75YDDemheR.p-15Ptzcs47F6Hk9)

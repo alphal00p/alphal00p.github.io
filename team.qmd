@@ -1,0 +1,74 @@
+---
+title: "Meet the team"
+---
+
+### Active collaborators {style="text-align: center;"}
+\
+
+::: {.grid}
+
+::: {.g-col-5}
+![Prof. Dr. Valentin Hirschi](./resources/mugshots/ValentinHirschi.jpg)
+
+[valentin.hirschi@gmail.com](mailto:valentin.hirschi@itp.unibe.ch)\
+[ITP @ University of Berne](https://www.itp.unibe.ch/about_us/people/people/index_eng.html?id=248)\
+[linkedin/valentin-hirschi](www.linkedin.com/in/valentin-hirschi)
+:::
+
+::: {.g-col-5}
+![Dr. Ben Ruijl](./resources/mugshots/BenRuijl.jpg)
+
+[valentin.hirschi@gmail.com](mailto:benruyl@gmail.com)\
+[Symbolica](https://symbolica.ch)
+:::
+
+::: {.g-col-5}
+![Zeno Capatti](./resources/mugshots/ZenoCapatti.jpg)
+
+[zcapatti@phys.ethz.ch](zcapatti@phys.ethz.ch)\
+[ITP @ ETH Zurich](https://itp.phys.ethz.ch/people/person-detail.MjQyNTU5.TGlzdC84NDYsLTE5MDQ4MDM5ODI=.html)
+:::
+
+::: {.g-col-5}
+![Mathijs Faarje](./resources/mugshots/MathijsFraaije.jpg)
+
+[mathijsfraaije@gmail.com](mathijsfraaije@gmail.com)\
+[ITP @ University of Berne](TBD)
+:::
+
+::: {.g-col-5}
+![Lucien Huber](./resources/mugshots/LucienHuber.jpg)
+
+[lucihuber@ethz.ch](lucihuber@ethz.ch)\
+[ITP @ University of Berne](TBD)
+:::
+
+:::
+
+### Former collaborators {style="text-align: center;"}
+\
+
+::: {.grid}
+
+::: {.g-col-5}
+![Dr. Dario Kermanschah](./resources/mugshots/DarioKermanschah.jpg)
+
+[kermanschah@phys.ethz.ch](kermanschah@phys.ethz.ch)\
+[ITP @ ETH Zurich](https://itp.phys.ethz.ch/people/person-detail.MTk5NTQy.TGlzdC84NDYsLTE5MDQ4MDM5ODI=.html)
+:::
+
+::: {.g-col-5}
+![Dr. Andrea Pelloni](./resources/mugshots/AndreaPelloni.jpg)
+
+[apelloni90@gmail.com](apelloni90@gmail.com)\
+[NIKHEF](https://theory.web.nikhef.nl/people/)
+:::
+
+::: {.g-col-5}
+![Armin Schweitzer](./resources/mugshots/ArminSchweitzer.jpg)
+
+[armin.schweitzer92@gmx.de](armin.schweitzer92@gmx.de)\
+[linkedin/armin-schweitzer](www.linkedin.com/in/armin-schweitzer)
+:::
+
+:::

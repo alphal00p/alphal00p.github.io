@@ -1,0 +1,26 @@
+---
+title: "The αLoop collaboration"
+#title-block-banner: true
+page-layout: article
+---
+
+::: {.justify}
+
+The lack of obvious sign of new physics phenomenon in collider experiments is an opportunity to take a step back and reflect on the amazing theory we have discovered so far: the Standard Model. In particular, we must now strive to make ever more precise predictions so as to hunt for indirect evidence of new physics in small departure from expectations.
+
+For this reason, our collaboration is dedicated to theoretical and algorithmic research for the automated computation of cross-sections in Quantum Field Theories at arbitrary perturbative orders. In particular, we develop a new theoretical framework called *Local Unitarity* (LU) which approaches this problem from an unorthodox way, particularly suited to numerical computations.
+
+![](./resources/double_triangle.png)
+
+$$
+\frac{d\sigma}{d\mathcal{O}} \;=\; \sum_{\Gamma\;\in\;\text{graphs}}\;\;
+\prod_{i=1}^{n_\text{loop}}\; d^{3}\mathbf{k}_i\;\;
+\sum_{c\;\in\;{\text{cuts}}} I^{(\text{LU})}_{\Gamma,c}\;
+\delta( \mathcal{O}( c, \mathbf{k}_i ) )
+$$
+
+Our research leads to the development of $\alpha\text{Loop}$, a tool for the automated computation of fixed-order cross-sections, for which you will find out more details on our [wiki](https://wiki.alphaloop.ch) and [GitHub](https://github.com/alphal00p/alphaloop).
+
+You can find an easy-to-read first introduction to Local Unitarity in [this proceeding](https://arxiv.org/pdf/2110.15662.pdf), which can then be complemented with further readings found in [our publications](references.qmd).
+
+:::
