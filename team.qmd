@@ -12,7 +12,7 @@ title: "Meet the team"
 
 [valentin.hirschi@gmail.com](mailto:valentin.hirschi@itp.unibe.ch)\
 [ITP @ University of Berne](https://www.itp.unibe.ch/about_us/people/people/index_eng.html?id=248)\
-[linkedin/valentin-hirschi](www.linkedin.com/in/valentin-hirschi)
+[linkedin/valentin-hirschi](https://www.linkedin.com/in/valentin-hirschi)
 :::
 
 ::: {.g-col-5}
@@ -65,7 +65,7 @@ Dr. Andrea Pelloni\
 ::: {.g-col-5}
 Armin Schweitzer\
 [armin.schweitzer92@gmx.de](armin.schweitzer92@gmx.de)\
-[linkedin/armin-schweitzer](www.linkedin.com/in/armin-schweitzer)
+[linkedin/armin-schweitzer](https://www.linkedin.com/in/armin-schweitzer)
 :::
 
 :::
