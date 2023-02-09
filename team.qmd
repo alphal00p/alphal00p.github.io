@@ -18,8 +18,8 @@ title: "Meet the team"
 ::: {.g-col-5}
 ![Dr. Ben Ruijl](./resources/mugshots/BenRuijl.jpg)
 
-[valentin.hirschi@gmail.com](mailto:benruyl@gmail.com)\
-[Symbolica](https://symbolica.ch)
+[benruyl@gmail.com](mailto:benruyl@gmail.com)\
+[Symbolica](https://symbolica.io)
 :::
 
 ::: {.g-col-5}
